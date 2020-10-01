@@ -1,32 +1,42 @@
-import { Link } from "gatsby"
 import React from "react"
 
+import { Link } from "gatsby"
+
+import styles from '../styles/Header.module.css'
+
 const Header = () => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          Home
-        </Link>
-      </h1>
-    </div>
+  <header className={styles.header}>
+    <span className={styles.headerLeft}>
+      <Link to="/" 
+      className={styles.link} 
+      activeClassName="headerActive"
+      >
+        Morgan Batterham
+      </Link>
+    </span>
+
+    <span className={styles.headerRight}>
+      <Link to="/about" 
+      className={styles.link} 
+      activeClassName="headerActive"
+      >
+        About Morgan
+      </Link>
+      
+      <Link to="/portfolio" 
+      className={styles.link} 
+      activeClassName="headerActive"
+      >
+        Morgan's Portfolio
+      </Link>
+      
+      <Link to="/contact" 
+      className={styles.link} 
+      activeClassName="headerActive"
+      >
+        Contact Morgan
+      </Link>
+    </span>
   </header>
 )
 

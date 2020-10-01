@@ -1,0 +1,13 @@
+body {
+    background-color: #ffffff;
+    color: #03012C;
+}
+
+.footer {
+    text-decoration: none;
+}
+
+.footerLink {
+    color: #03012C;
+    /* text-decoration: none; */
+}

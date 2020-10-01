@@ -1,14 +1,12 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/Layout'
+import styles from '../styles/Contact.module.css'
 
 const Contact = () => {
     return (
         <Layout>
             <h1>Contact Page</h1>
-            <p>Contact</p>
-            <Link to="/">Return Home</Link>
         </Layout>
     )
 }
