@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/Layout"
 
-const IndexPage = () => (
+const Index = () => (
   <Layout>
     <h1>Index</h1>
     <Link to="/AboutPage">About</Link>
@@ -12,4 +12,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default Index

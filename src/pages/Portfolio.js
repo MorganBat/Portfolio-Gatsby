@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from "../components/Layout"
 
-const PortfolioPage = () => {
+const Portfolio = () => {
     return (
         <Layout>
             <div>
@@ -14,4 +14,4 @@ const PortfolioPage = () => {
     )
 }
 
-export default PortfolioPage
+export default Portfolio

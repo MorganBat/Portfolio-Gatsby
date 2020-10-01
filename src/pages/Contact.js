@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/Layout'
 
-const ContactPage = () => {
+const Contact = () => {
     return (
         <Layout>
             <h1>Contact Page</h1>
@@ -13,4 +13,4 @@ const ContactPage = () => {
     )
 }
 
-export default ContactPage
+export default Contact
