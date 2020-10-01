@@ -6,9 +6,9 @@ import Layout from "../components/Layout"
 const Index = () => (
   <Layout>
     <h1>Index</h1>
-    <Link to="/AboutPage">About</Link>
-    <Link to="/PortfolioPage">Portfolio</Link>
-    <Link to="/ContactPage">Contact</Link>
+    <Link to="/About">About</Link>
+    <Link to="/Portfolio">Portfolio</Link>
+    <Link to="/Contact">Contact</Link>
   </Layout>
 )
 
