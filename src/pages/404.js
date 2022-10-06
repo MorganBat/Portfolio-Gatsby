@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from 'gatsby'
 
 import Layout from "../components/Layout"
+import styles from '../styles/404.module.css'
 
 const NotFoundPage = () => (
   <Layout>

@@ -4,6 +4,8 @@ import { Link } from "gatsby"
 
 import styles from '../styles/Header.module.css'
 
+console.log(styles)
+
 const Header = () => (
   <header className={styles.header}>
     <span className={styles.headerLeft}>
