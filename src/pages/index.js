@@ -1,12 +1,15 @@
 import React from "react"
 
-import Layout from "../components/Layout"
-import styles from '../styles/Index.module.css'
+import Layout from "../components/Layout/Layout"
+import NeumorphicContainer from "../components/NeumorphicContainer/NeumorphicContainer"
+import HomeContent from "../components/HomeContent/HomeContent"
 
-const Index = () => (
-  <Layout>
-    <h1>Index</h1>
-  </Layout>
-)
-
-export default Index
+export default function Home() {
+  return (
+    <Layout>
+      <NeumorphicContainer>
+        <HomeContent />
+      </NeumorphicContainer>
+    </Layout>
+  )
+}

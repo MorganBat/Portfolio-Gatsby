@@ -1,14 +1,17 @@
-import React from 'react'
+import React from "react"
+import Layout from "../components/Layout/Layout"
 
-import Layout from '../components/Layout'
-import styles from '../styles/Contact.module.css'
+import NeumorphicContainer from "../components/NeumorphicContainer/NeumorphicContainer"
+import ContactContent from "../components/ContactContent/ContactContent"
 
 const Contact = () => {
-    return (
-        <Layout>
-            <h1>Contact Page</h1>
-        </Layout>
-    )
+  return (
+    <Layout topNav>
+      <NeumorphicContainer>
+        <ContactContent />
+      </NeumorphicContainer>
+    </Layout>
+  )
 }
 
 export default Contact
